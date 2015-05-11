@@ -14,13 +14,18 @@
     <div id="columns">
       <div id="side">
         <ul>
-          <li><a href="http://www....">Home</a></li>
-          <li><a href="http://www..../faq">Questions</a></li>
+          <!--<li><a href="http://www....">Home</a></li>-->
+          <li><%= link_to "Home", store_path %></li>
+          <!--<li><a href="http://www..../faq">Questions</a></li>-->
+          <li><%= link_to "Questions", products_path %></li>
           <li><a href="http://www..../news">News</a></li>
           <li><a href="http://www..../contact">Contact</a></li>
         </ul>
       </div>
       <div id="main">
+        <% if !(session[:visit_count].nil?) && session[:visit_count] > 3 %>
+        <h2><%= "you visit store " + pluralize(session[:visit_count], "time") %></h2>
+        <% end %>
         <%= yield %>
       </div>
     </div>
