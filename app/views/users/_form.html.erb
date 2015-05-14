@@ -1,6 +1,6 @@
 <div class="depot_form">
 
-<%= form_for(@user) do |f| %>
+<%= form_for(@user ) do |f| %>
   <% if @user.errors.any? %>
     <div id="error_explanation">
       <h2><%= pluralize(@user.errors.count, "error") %> prohibited this user from being saved:</h2>
@@ -19,6 +19,10 @@
   <div class="field">
     <%= f.label :name %><br>
     <%= f.text_field :name %>
+  </div>
+  <div >
+    <%= f.label :old_password %><br>
+    <%= f.text_field :password %>
   </div>
   <div class="field">
     <%= f.label :password %><br>
