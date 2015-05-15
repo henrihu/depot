@@ -7,7 +7,14 @@ class ApplicationController < ActionController::Base
 
   protected
     def authorize
-      unless User.find_by(id: session[:user_id])
+      if User.count == 0
+        if request.path_parameters[:controller] == 'users' and request.path_parameters[:action] == 'create'
+          #do nothing. let the users controoler verify that everything is correct
+        elsif !(request.path_parameters[:controller] == 'users' and request.path_parameters[:action] == 'new')
+          flash[:notice] = "Please create Admin User"
+          redirect_to :controller => 'users' , :action => 'new'
+        end
+      elsif !User.find_by(id: session[:user_id])
         redirect_to login_url, notice: "Please log in"
       end
     end
