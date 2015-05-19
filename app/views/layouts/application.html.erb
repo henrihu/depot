@@ -47,6 +47,8 @@
       <% end %>
     </div>
     <div id="main">
+      <p class="notice"><%= notice %></p>
+      <p class="alert"><%= alert %></p>
       <% if !(session[:visit_count].nil?) && session[:visit_count] > 3 %>
       <h2><%= "you visit store " + pluralize(session[:visit_count], "time") %></h2>
       <% end %>

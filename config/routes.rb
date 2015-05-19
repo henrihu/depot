@@ -1,4 +1,5 @@
 Depot::Application.routes.draw do
+  devise_for :users
   get 'admin' => 'admin#index'
 
   resources :products do

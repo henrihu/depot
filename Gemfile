@@ -48,6 +48,9 @@ gem 'kaminari', '~> 0.14'
 # Use debugger
 # gem 'debugger', group: [:development, :test]
 
+# Use devise for User Model
+gem 'devise'
+
 group :development do
   gem 'sqlite3'
 end
