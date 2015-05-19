@@ -16,4 +16,7 @@
 /tmp
 
 # Ignore all rubymine ideas.
-/.idea
+/.idea/
+
+public/uploads
+
