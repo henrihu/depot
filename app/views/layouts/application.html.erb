@@ -39,7 +39,9 @@
       <ul>
         <% if current_user %>
           <li><%= link_to 'Orders', orders_path %></li>
+          <% if can? :read, Product %>
           <li><%= link_to 'Products', products_path %></li>
+          <% end %>
           <li><%= link_to 'User',   edit_user_registration_path(current_user)  %></li>
           <%= button_to 'Logout', destroy_user_session_path, method: :delete %>
         <% else %>

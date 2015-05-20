@@ -51,6 +51,8 @@ gem 'kaminari', '~> 0.14'
 # Use devise for User Model
 gem 'devise'
 
+gem 'cancan'
+
 group :development do
   gem 'sqlite3'
 end

@@ -1,6 +1,6 @@
 class ProductsController < ApplicationController
   before_action :set_product, only: [:show, :edit, :update, :destroy]
-
+  load_and_authorize_resource
   def who_bought
     @product = Product.find(params[:id])
     @latest_order = @product.orders.order(:updated_at).last
@@ -14,7 +14,9 @@ class ProductsController < ApplicationController
   # GET /products
   # GET /products.json
   def index
+
     @products = Product.all
+    authorize! :index, @products
   end
 
   # GET /products/1
