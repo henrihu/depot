@@ -1,4 +1,5 @@
 class ApplicationController < ActionController::Base
+  before_action :configure_permitted_parameters, if: :devise_controller?
   # before_action :authenticate_user!  #:authorize
   # before_action :set_i18n_locale_from_params
   # Prevent CSRF attacks by raising an exception.
@@ -6,6 +7,10 @@ class ApplicationController < ActionController::Base
   protect_from_forgery with: :exception
 
   protected
+
+    def configure_permitted_parameters
+      devise_parameter_sanitizer.for(:sign_up) << :employee
+    end
     # def authorize
     #   if User.count == 0
     #     if request.path_parameters[:controller] == 'users' and request.path_parameters[:action] == 'create'

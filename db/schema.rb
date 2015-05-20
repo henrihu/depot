@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20150519112556) do
+ActiveRecord::Schema.define(version: 20150520012007) do
 
   create_table "carts", force: true do |t|
     t.datetime "created_at"
@@ -63,6 +63,7 @@ ActiveRecord::Schema.define(version: 20150519112556) do
     t.string   "last_sign_in_ip"
     t.datetime "created_at"
     t.datetime "updated_at"
+    t.boolean  "employee"
   end
 
   add_index "users", ["email"], name: "index_users_on_email", unique: true
