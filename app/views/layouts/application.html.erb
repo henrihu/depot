@@ -36,15 +36,17 @@
         <li><a href="http://www..../news">News</a></li>
         <li><a href="http://www..../contact">Contact</a></li>
       </ul>
-
-      <% if session[:user_id] %>
-        <ul>
+      <ul>
+        <% if current_user %>
           <li><%= link_to 'Orders', orders_path %></li>
           <li><%= link_to 'Products', products_path %></li>
-          <li><%= link_to 'Users',   users_path  %></li>
-        </ul>
-        <%= button_to 'Logout', logout_path, method: :delete %>
-      <% end %>
+          <li><%= link_to 'User',   edit_user_registration_path(current_user)  %></li>
+          <%= button_to 'Logout', destroy_user_session_path, method: :delete %>
+        <% else %>
+          <%= button_to 'Login', new_user_session_path, method: :get %>
+          <%= button_to 'SignUp', new_user_registration_path, method: :get %>
+        <% end %>
+      </ul>
     </div>
     <div id="main">
       <p class="notice"><%= notice %></p>

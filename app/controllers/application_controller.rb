@@ -1,23 +1,23 @@
 class ApplicationController < ActionController::Base
-  before_action :authorize
-  before_action :set_i18n_locale_from_params
+  # before_action :authenticate_user!  #:authorize
+  # before_action :set_i18n_locale_from_params
   # Prevent CSRF attacks by raising an exception.
   # For APIs, you may want to use :null_session instead.
   protect_from_forgery with: :exception
 
   protected
-    def authorize
-      if User.count == 0
-        if request.path_parameters[:controller] == 'users' and request.path_parameters[:action] == 'create'
-          #do nothing. let the users controoler verify that everything is correct
-        elsif !(request.path_parameters[:controller] == 'users' and request.path_parameters[:action] == 'new')
-          flash[:notice] = "Please create Admin User"
-          redirect_to :controller => 'users' , :action => 'new'
-        end
-      elsif !User.find_by(id: session[:user_id])
-        redirect_to login_url, notice: "Please log in"
-      end
-    end
+    # def authorize
+    #   if User.count == 0
+    #     if request.path_parameters[:controller] == 'users' and request.path_parameters[:action] == 'create'
+    #       #do nothing. let the users controoler verify that everything is correct
+    #     elsif !(request.path_parameters[:controller] == 'users' and request.path_parameters[:action] == 'new')
+    #       flash[:notice] = "Please create Admin User"
+    #       redirect_to :controller => 'users' , :action => 'new'
+    #     end
+    #   elsif !User.find_by(id: session[:user_id])
+    #     redirect_to login_url, notice: "Please log in"
+    #   end
+    # end
 
 
     def set_i18n_locale_from_params

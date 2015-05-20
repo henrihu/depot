@@ -1,20 +1,21 @@
 Depot::Application.routes.draw do
   devise_for :users
+
   get 'admin' => 'admin#index'
 
   resources :products do
     get :who_bought, on: :member
   end
 
-  controller :sessions do
-    get 'login' => :new
-    post 'login' => :create
-    delete 'logout' => :destroy
-  end
+  # controller :sessions do
+  #   get 'login' => :new
+  #   post 'login' => :create
+  #   delete 'logout' => :destroy
+  # end
+  #
+  # get "sessions/create"
+  # get "sessions/destroy"
 
-  get "sessions/create"
-  get "sessions/destroy"
-  resources :users
 
   scope '(:locale)' do
     resources :orders
@@ -22,6 +23,8 @@ Depot::Application.routes.draw do
     resources :carts
     root 'store#index', as: 'store',  via: :all
   end
+
+
 
 
 
