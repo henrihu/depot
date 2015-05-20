@@ -5,3 +5,7 @@ es:
   layouts:
     application:
       title:      "Publicaciones de Pragmatic"
+  store:
+    index:
+      title_html: "Shjghjggldkhgfkhdkhgk"
+      badd_html: "asdglkjlkjlkjhkjfasf"
