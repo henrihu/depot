@@ -7,7 +7,7 @@ class Ability
     if user.nil?
       return
     end
-    if user.employee?
+    if user.is_a?(Saler) || user.employee?
       can :manage, Product
     end
 

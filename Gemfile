@@ -53,6 +53,12 @@ gem 'devise'
 
 gem 'cancan'
 
+gem 'figaro'
+
+gem 'mini_magick', '3.8.0'
+
+gem 'carrierwave'
+
 group :development do
   gem 'sqlite3'
 end

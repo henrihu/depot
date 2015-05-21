@@ -1,9 +1,13 @@
 Depot::Application.routes.draw do
-  devise_for :salers
-  # devise_for :users
+  # devise_for :salers
   devise_for :users, controllers: {
                        sessions: 'users/sessions'
                    }
+
+  devise_for :salers, controllers: {
+                       registrations: 'salers/registrations'
+                   }
+
 
   get 'admin' => 'admin#index'
 
