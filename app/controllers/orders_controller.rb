@@ -1,5 +1,7 @@
 class OrdersController < ApplicationController
-  skip_before_action :authorize, only: [:new] #, :create]
+  before_action :authenticate_user!
+  # skip_before_action :authorize, only: [:new] #, :create]
+  # load_and_authorize_resource
 
   include CurrentCart
   before_action :set_cart, only: [:new, :create]
@@ -8,7 +10,12 @@ class OrdersController < ApplicationController
   # GET /orders
   # GET /orders.json
   def index
-    @orders = Order.order('created_at desc').page(params[:page])
+
+    # @orders = Order.order('created_at desc').where(user_id: current_user).page(params[:page])
+    @orders = Order.accessible_by(current_ability).page(params[:page])
+    # @orders = Order.order('id ').page(params[:page])
+    # authorize! :read, @orders[7]
+
   end
 
   # GET /orders/1
@@ -35,6 +42,7 @@ class OrdersController < ApplicationController
   def create
     @order = Order.new(order_params)
     @order.add_line_items_from_cart(@cart)
+    @order.add_user(current_user)
 
     respond_to do |format|
       if @order.save

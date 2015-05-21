@@ -1,5 +1,5 @@
 class StoreController < ApplicationController
-  # before_action :authenticate_user!
+
   # skip_before_action :authorize
   include CurrentCart
   # before_action :set_cart
