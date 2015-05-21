@@ -1,4 +1,5 @@
 Depot::Application.routes.draw do
+  devise_for :salers
   # devise_for :users
   devise_for :users, controllers: {
                        sessions: 'users/sessions'
