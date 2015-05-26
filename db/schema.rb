@@ -24,7 +24,6 @@ ActiveRecord::Schema.define(version: 20150521175320) do
     t.datetime "created_at"
     t.datetime "updated_at"
     t.integer  "quantity",   default: 1
-    t.decimal  "price"
     t.integer  "order_id"
   end
 
