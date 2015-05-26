@@ -4,5 +4,5 @@ class Saler < ActiveRecord::Base
   devise :database_authenticatable, :registerable,
          :recoverable, :rememberable, :trackable, :validatable
 
-  mount_uploader :image, PictureUploader
+  mount_uploader :image, AvatarUploader
 end
