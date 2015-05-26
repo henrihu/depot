@@ -64,6 +64,7 @@ GEM
     execjs (2.5.2)
     figaro (1.1.1)
       thor (~> 0.14)
+    gravtastic (3.2.6)
     haml (4.0.6)
       tilt
     highline (1.7.2)
@@ -176,6 +177,7 @@ DEPENDENCIES
   coffee-rails (~> 4.0.0)
   devise
   figaro
+  gravtastic
   haml (~> 4.0)
   jbuilder (~> 1.2)
   jquery-rails

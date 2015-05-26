@@ -17,7 +17,11 @@
       <%= submit_tag 'submit' %>
       <%= javascript_tag "$('.locale input').hide()" %>
     <% end %>
+
     <%= image_tag current_user.image_url(:thumb) if !current_user.nil? && current_user.image?  %>
+    <% if saler_signed_in? %>
+      <%= image_tag current_user.gravatar_url %>
+    <% end %>
     <%= @page_title || t('.title') %>
     <div class = "login">
       <p class="navbar-text pull-right">

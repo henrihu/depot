@@ -5,4 +5,7 @@ class Saler < ActiveRecord::Base
          :recoverable, :rememberable, :trackable, :validatable
 
   mount_uploader :image, AvatarUploader
+
+  include Gravtastic
+  gravtastic
 end
