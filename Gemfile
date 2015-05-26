@@ -59,6 +59,8 @@ gem 'mini_magick', '3.8.0'
 
 gem 'carrierwave'
 
+gem 'gravtastic'
+
 group :development do
   gem 'sqlite3'
 end

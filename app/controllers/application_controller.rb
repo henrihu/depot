@@ -16,8 +16,8 @@ class ApplicationController < ActionController::Base
     def configure_permitted_parameters
       devise_parameter_sanitizer.for(:sign_up) << :employee
       devise_parameter_sanitizer.for(:account_update) << :employee
-      devise_parameter_sanitizer.for(:sign_up) { |u| u.permit(:avatar) }
-      devise_parameter_sanitizer.for(:account_update) { |u| u.permit(:avatar) }
+      devise_parameter_sanitizer.for(:sign_up) { |u| u.permit(:avatar, :image) }
+      devise_parameter_sanitizer.for(:account_update) { |u| u.permit(:avatar, :image) }
     end
     # def authorize
     #   if User.count == 0
