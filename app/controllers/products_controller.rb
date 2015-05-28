@@ -1,6 +1,16 @@
 class ProductsController < ApplicationController
   before_action :set_product, only: [:show, :edit, :update, :destroy]
   load_and_authorize_resource
+
+  def import
+    if params[:file].nil?
+      redirect_to :back, notice: "File is not selected."
+      return
+    end
+    Product.import(params[:file])
+    redirect_to products_path, notice: "Products imported."
+  end
+
   def who_bought
     @product = Product.find(params[:id])
     @latest_order = @product.orders.order(:updated_at).last
@@ -15,6 +25,11 @@ class ProductsController < ApplicationController
   # GET /products.json
   def index
     @products = Product.all
+    respond_to do |format|
+      format.html
+        format.csv { render text: @products.to_csv } #{ send_data @products.to_csv }
+      format.xls # { send_data @products.to_csv(col_sep: "\t") }
+    end
   end
 
   # GET /products/1

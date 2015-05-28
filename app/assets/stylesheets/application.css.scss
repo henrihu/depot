@@ -7,10 +7,13 @@
  *
  * You're free to add application-wide styles to this file and they'll appear at the top of the
  * compiled file, but it's generally better to create a new file per style scope.
- *
- *= require_self
- *= require_tree .
+ *=
+
  */
+// "bootstrap-sprockets" must be imported before "bootstrap" and "bootstrap/variables"
+@import "bootstrap-sprockets";
+@import "bootstrap";
+@import "bootstrap/theme";
 
 #banner {
   background: #9c9;
@@ -26,6 +29,9 @@
   .locale {
     float: right;
     margin: -0.25em 0.1em;
+  }
+  .login {
+    font: 16px/16px "Times New Roman";
   }
   form {
     font: 16px/16px "Times New Roman";
@@ -56,7 +62,7 @@
     float: left;
     padding: 1em 2em;
     width: 13em;
-    background: #141;
+    background:   #141;
 
     form, div {
       display: inline;

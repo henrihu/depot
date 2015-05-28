@@ -1,13 +1,18 @@
 <h1>Listing products</h1>
 
+<p>
+  Download:
+  <%= link_to "CSV", products_path(format: "csv") %> |
+  <%= link_to "Excel", products_path(format: "xls") %>
+</p>
+
 <table>
   <thead>
     <tr>
-      <th>Title</th>
-      <th>Description</th>
       <th>Image url</th>
+      <th>product</th>
       <th>Price</th>
-      <th></th>
+      <th>action</th>
       <th></th>
       <th></th>
     </tr>
@@ -20,16 +25,18 @@
           <%= image_tag(product.image_url, class: 'list_image') %>
         </td>
         <td class="list_description">
+          <!--<%= product.title %>-->
           <dl>
             <dt><%= product.title %></dt>
             <dd><%= truncate(strip_tags(product.description), length: 80) %></dd>
           </dl>
         </td>
+
+        <td><%= number_to_currency(product.price) %></td>
         <td class="list_actions">
           <%= link_to 'Show', product %><br/>
           <%= link_to 'Edit', edit_product_path(product) %><br/>
-          <%= link_to 'Destroy', product, method: :delete,
-                      data: { confirm: 'Are you sure?' } %>
+          <%= link_to 'Destroy', product, method: :delete, data: { confirm: 'Are you sure?' } %>
         </td>
       </tr>
     <% end %>
@@ -39,3 +46,9 @@
 <br>
 
 <%= link_to 'New Product', new_product_path %>
+
+<h2>Import Products</h2>
+<%= form_tag import_products_path, multipart: true do %>
+  <%= file_field_tag :file %>
+  <%= submit_tag "Import" %>
+<% end %>

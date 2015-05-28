@@ -13,7 +13,10 @@ Depot::Application.routes.draw do
 
   resources :products do
     get :who_bought, on: :member
+    collection { post :import }
   end
+
+
 
   # controller :sessions do
   #   get 'login' => :new

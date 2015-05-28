@@ -1,6 +1,10 @@
 require 'rails_helper'
 
 RSpec.describe Saler, type: :model do
-  # pending "add some examples to (or delete) #{__FILE__}"
-  it "has a title" # your examples (tests) go here
+  it "orders by name" do
+    andy = Saler.create!(name: "Andy", email: "andy@aaa.com", password: "aaaaaaaaa")
+    david = Saler.create!(name: "David", email: "david@aaa.com", password: "aaaaaaaaa")
+
+    expect(Saler.ordered_by_name).to eq([andy, david])
+  end
 end

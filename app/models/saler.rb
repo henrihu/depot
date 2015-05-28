@@ -8,4 +8,8 @@ class Saler < ActiveRecord::Base
 
   include Gravtastic
   gravtastic
+
+  def self.ordered_by_name
+    self.order(:name)
+  end
 end

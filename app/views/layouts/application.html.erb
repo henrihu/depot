@@ -2,14 +2,19 @@
 <html>
 <head>
   <title>Depot</title>
-  <link rel="stylesheet" href="//railsgirls.com/assets/bootstrap.css">
-  <link rel="stylesheet" href="//railsgirls.com/assets/bootstrap-theme.css">
+  <!--&lt;!&ndash; Latest compiled and minified CSS &ndash;&gt;-->
+  <!--<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">-->
+  <!--&lt;!&ndash; Optional theme &ndash;&gt;-->
+  <!--<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap-theme.min.css">-->
+  <!--&lt;!&ndash;&lt;!&ndash; Latest compiled and minified JavaScript &ndash;&gt;&ndash;&gt;-->
+  <!--<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>-->
+
   <%= stylesheet_link_tag    "application", media: "all", "data-turbolinks-track" => true %>
   <%= javascript_include_tag "application", "data-turbolinks-track" => true %>
   <%= csrf_meta_tags %>
 </head>
-<body class='<%= controller.controller_name %>'>
-  <div id="banner">
+<body class='<%= controller.controller_name %> container'>
+  <div id="banner" class="navbar ">
     <%= form_tag store_path, class: 'locale' do %>
       <%= select_tag 'set_locale',
              options_for_select(LANGUAGES, I18n.locale.to_s),
@@ -45,8 +50,8 @@
     </div>
   </div>
   </div>
-  <div id="columns">
-    <div id="side">
+  <div id="columns" >
+    <div id="side" >
       <div id="cart">
         <% if @cart %>
           <%= hidden_div_if(@cart.line_items.empty?, id: 'cart') do %>
@@ -90,7 +95,7 @@
   </div>
   <footer>
     <div class="container">
-      Rails Girls 2015
+      Rails UpWork! 2015
     </div>
   </footer>
   <script src="//railsgirls.com/assets/bootstrap.js"></script>
