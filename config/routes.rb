@@ -1,8 +1,10 @@
 Depot::Application.routes.draw do
   # devise_for :salers
+
   devise_for :users, controllers: {
                        sessions: 'users/sessions'
                    }
+  get '/auth/twitter/callback' =>  'users/sessions#create'
 
   devise_for :salers, controllers: {
                        registrations: 'salers/registrations'
@@ -15,6 +17,7 @@ Depot::Application.routes.draw do
     get :who_bought, on: :member
     collection { post :import }
   end
+
 
 
 

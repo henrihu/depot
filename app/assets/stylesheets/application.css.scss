@@ -14,7 +14,8 @@
 @import "bootstrap-sprockets";
 @import "bootstrap";
 @import "bootstrap/theme";
-
+//=require
+//=require_tree
 #banner {
   background: #9c9;
   padding: 10px;
@@ -42,12 +43,12 @@
 }
 
 #notice {
-  color: #000 !important;
+  color: #080 !important;
   border: 2px solid red;
   padding: 1em;
   margin-bottom: 2em;
   background-color: #f0f0f0;
-  font: bold smaller sans-serif;
+  font: 16px/16px "Times New Roman" ;
 }
 #columns {
   background: #141;

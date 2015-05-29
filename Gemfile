@@ -67,6 +67,9 @@ gem 'protected_attributes'
 gem 'roo'
 gem 'roo-xls'
 
+gem "omniauth"
+gem "omniauth-twitter"
+
 group :development, :test do
   gem 'rspec-rails', '~> 3.0'
 end

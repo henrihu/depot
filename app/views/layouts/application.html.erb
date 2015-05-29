@@ -2,6 +2,9 @@
 <html>
 <head>
   <title>Depot</title>
+  <!--[if lt IE 9]>
+  <script src="http://html5shim.googlecode.com/svn/trunk/html5.js" type="text/javascript"></script>
+  <![endif]-->
   <!--&lt;!&ndash; Latest compiled and minified CSS &ndash;&gt;-->
   <!--<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">-->
   <!--&lt;!&ndash; Optional theme &ndash;&gt;-->
@@ -12,6 +15,7 @@
   <%= stylesheet_link_tag    "application", media: "all", "data-turbolinks-track" => true %>
   <%= javascript_include_tag "application", "data-turbolinks-track" => true %>
   <%= csrf_meta_tags %>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 <body class='<%= controller.controller_name %> container'>
   <div id="banner" class="navbar ">
@@ -23,7 +27,7 @@
       <%= javascript_tag "$('.locale input').hide()" %>
     <% end %>
 
-    <%= image_tag current_user.image_url(:thumb) if !current_user.nil? && current_user.image?  %>
+    <%= image_tag current_user.image_url(:thumb) if !current_user.nil? && current_user.class == Saler && current_user.image?  %>
     <% if saler_signed_in? %>
       <%= image_tag current_user.gravatar_url %>
     <% end %>
@@ -51,7 +55,7 @@
   </div>
   </div>
   <div id="columns" >
-    <div id="side" >
+    <div id="side" class="nav-collapse" >
       <div id="cart">
         <% if @cart %>
           <%= hidden_div_if(@cart.line_items.empty?, id: 'cart') do %>
@@ -60,7 +64,7 @@
         <% end %>
       </div>
 
-      <ul>
+      <ul class="nav">
         <!--<li><a href="http://www....">Home</a></li>-->
         <li><%= link_to "Home", store_path %></li>
         <!--<li><a href="http://www..../faq">Questions</a></li>-->
@@ -68,7 +72,7 @@
         <li><a href="http://www..../news">News</a></li>
         <li><a href="http://www..../contact">Contact</a></li>
       </ul>
-      <ul>
+      <ul class="nav">
         <% if current_user %>
           <li><%= link_to 'Orders', orders_path %></li>
           <% if can? :read, Product %>
@@ -81,6 +85,9 @@
           <%= button_to 'SignUp', new_user_registration_path, method: :get %>
         <% end %>
       </ul>
+      <div id="user_nav">
+        <%= link_to "Sign in with Twitter", "/auth/twitter" %>
+      </div>
     </div>
     <div id="main">
       <p class="notice"><%= notice %></p>
