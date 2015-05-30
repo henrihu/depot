@@ -1,4 +1,20 @@
 Depot::Application.configure do
+
+  # General Settings
+  config.app_domain = 'localhost:3000'
+
+  config.action_mailer.delivery_method = :smtp
+  config.action_mailer.perform_deliveries = true
+  config.action_mailer.default_url_options = { host: config.app_domain }
+  config.action_mailer.smtp_settings = {
+      address:              "smtp.gmail.com",
+      port:                 587,
+      # domain:               "domain.of.sender.net",
+      authentication:       "plain",
+      user_name:            ENV['gmail_username'],  #"wangbin198862@gmail.com",
+      password:             ENV['gmail_password'],   #"nimenzaoan",
+      enable_starttls_auto: true
+  }
   # Settings specified here will take precedence over those in config/application.rb.
 
   # Code is not reloaded between requests.

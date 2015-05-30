@@ -6,6 +6,8 @@ class ApplicationController < ActionController::Base
   # For APIs, you may want to use :null_session instead.
   protect_from_forgery with: :exception
 
+  before_filter :ensure_signup_complete, only: [:new, :create, :update, :destroy]
+
   alias_method :devise_current_user, :current_user
   def current_user
      devise_current_user || current_saler
@@ -16,8 +18,8 @@ class ApplicationController < ActionController::Base
     def configure_permitted_parameters
       devise_parameter_sanitizer.for(:sign_up) << :employee
       devise_parameter_sanitizer.for(:account_update) << :employee
-      devise_parameter_sanitizer.for(:sign_up) { |u| u.permit(:avatar, :image) }
-      devise_parameter_sanitizer.for(:account_update) { |u| u.permit(:avatar, :image) }
+      devise_parameter_sanitizer.for(:sign_up) { |u| u.permit(:avatar, :image, :username,:password, :email, :uid, :provider, :created_at) }
+      devise_parameter_sanitizer.for(:account_update) { |u| u.permit(:avatar, :image, :username,:password, :email, :uid, :provider, :created_at) }
     end
     # def authorize
     #   if User.count == 0
@@ -32,6 +34,16 @@ class ApplicationController < ActionController::Base
     #   end
     # end
 
+  def ensure_signup_complete
+    # Ensure we don't go into an infinite loop
+    return if action_name == 'finish_signup'
+
+    # Redirect to the 'finish_signup' page if the user
+    # email hasn't been verified yet
+    if current_user && !current_user.email_verified?
+      redirect_to finish_signup_path(current_user)
+    end
+  end
 
     def set_i18n_locale_from_params
       if params[:locale]

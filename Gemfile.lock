@@ -69,6 +69,8 @@ GEM
     diff-lcs (1.2.5)
     erubis (2.7.0)
     execjs (2.5.2)
+    faraday (0.9.1)
+      multipart-post (>= 1.2, < 3)
     figaro (1.1.1)
       thor (~> 0.14)
     gravtastic (3.2.6)
@@ -87,6 +89,7 @@ GEM
     jquery-ui-rails (5.0.3)
       railties (>= 3.2.16)
     json (1.8.2)
+    jwt (1.5.0)
     kaminari (0.16.3)
       actionpack (>= 3.0.0)
       activesupport (>= 3.0.0)
@@ -99,6 +102,8 @@ GEM
     mini_portile (0.6.2)
     minitest (4.7.5)
     multi_json (1.11.0)
+    multi_xml (0.5.5)
+    multipart-post (2.0.0)
     net-scp (1.2.1)
       net-ssh (>= 2.6.5)
     net-sftp (2.1.2)
@@ -109,12 +114,25 @@ GEM
     nokogiri (1.6.6.2)
       mini_portile (~> 0.6.0)
     oauth (0.4.7)
+    oauth2 (1.0.0)
+      faraday (>= 0.8, < 0.10)
+      jwt (~> 1.0)
+      multi_json (~> 1.3)
+      multi_xml (~> 0.5)
+      rack (~> 1.2)
     omniauth (1.2.2)
       hashie (>= 1.2, < 4)
       rack (~> 1.0)
+    omniauth-facebook (2.0.1)
+      omniauth-oauth2 (~> 1.2)
+    omniauth-linkedin (0.2.0)
+      omniauth-oauth (~> 1.0)
     omniauth-oauth (1.1.0)
       oauth
       omniauth (~> 1.0)
+    omniauth-oauth2 (1.3.0)
+      oauth2 (~> 1.0)
+      omniauth (~> 1.2)
     omniauth-twitter (1.2.0)
       json (~> 1.3)
       omniauth-oauth (~> 1.1)
@@ -234,6 +252,8 @@ DEPENDENCIES
   kaminari (~> 0.14)
   mini_magick (= 3.8.0)
   omniauth
+  omniauth-facebook
+  omniauth-linkedin
   omniauth-twitter
   pg
   protected_attributes

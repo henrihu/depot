@@ -68,7 +68,9 @@ gem 'roo'
 gem 'roo-xls'
 
 gem "omniauth"
-gem "omniauth-twitter"
+gem 'omniauth-twitter'
+gem 'omniauth-facebook'
+gem 'omniauth-linkedin'
 
 group :development, :test do
   gem 'rspec-rails', '~> 3.0'

@@ -1,10 +1,15 @@
 Depot::Application.routes.draw do
   # devise_for :salers
+  # devise_for :users
+  devise_for :users, :controllers => { omniauth_callbacks: 'omniauth_callbacks' }
 
-  devise_for :users, controllers: {
-                       sessions: 'users/sessions'
-                   }
-  get '/auth/twitter/callback' =>  'users/sessions#create'
+  # devise_for :users, :controllers => { :omniauth_callbacks => "callbacks" }
+  #
+  # devise_for :users, controllers: {
+  #                      sessions: 'users/sessions'
+
+  # get '/auth/twitter/callback' =>  'devise/sessions#create'
+  match '/users/:id/finish_signup' => 'users#finish_signup', via: [:get, :patch], :as => :finish_signup
 
   devise_for :salers, controllers: {
                        registrations: 'salers/registrations'
