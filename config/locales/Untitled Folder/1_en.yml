@@ -1,0 +1,14 @@
+
+
+en:
+  lll: "adsfasdf"
+  layouts:
+    application:
+      title:      "Pragmatic Bookshelf"
+
+  store:
+    index:
+      title_html: "Your Pragmatic Catalog"
+      badd_html: "Add to Cart"
+
+

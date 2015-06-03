@@ -7,7 +7,7 @@ class User < ActiveRecord::Base
   # :confirmable, :lockable, :timeoutable and :omniauthable
   devise :database_authenticatable, :registerable, :confirmable,
          :recoverable, :rememberable, :trackable, :validatable , :omniauthable
-
+  attr_accessible :username, :email, :password
   validates_format_of :email, :without => TEMP_EMAIL_REGEX, on: :update
 
   mount_uploader :avatar, AvatarUploader
@@ -37,8 +37,8 @@ class User < ActiveRecord::Base
       # Create the user if it's a new registration
       if user.nil?
         user = User.new(
-            name: auth.extra.raw_info.name,
-            #username: auth.info.nickname || auth.uid,
+            # name: auth.extra.raw_info.name,
+            username: auth.info.nickname || auth.uid,
             email: email ? email : "#{TEMP_EMAIL_PREFIX}-#{auth.uid}-#{auth.provider}.com",
             password: Devise.friendly_token[0,20]
         )
@@ -81,6 +81,10 @@ class User < ActiveRecord::Base
       user.created_at = Time.zone.now
       user.password = Devise.friendly_token[0,20]
     end
+  end
+
+  def self.rand_string(numbers = 1)
+    (0...numbers).map { (65 + rand(26)).chr }.join
   end
 
 end

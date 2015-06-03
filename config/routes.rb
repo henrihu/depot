@@ -9,7 +9,9 @@ Depot::Application.routes.draw do
   #                      sessions: 'users/sessions'
 
   # get '/auth/twitter/callback' =>  'devise/sessions#create'
-  match '/users/:id/finish_signup' => 'users#finish_signup', via: [:get, :patch], :as => :finish_signup
+  devise_scope :user do
+    match '/users/:id/finish_signup' => 'users/registrations#finish_signup', via: [:get, :patch], :as => :finish_signup
+  end
 
   devise_for :salers, controllers: {
                        registrations: 'salers/registrations'

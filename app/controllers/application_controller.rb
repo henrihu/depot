@@ -7,7 +7,7 @@ class ApplicationController < ActionController::Base
   protect_from_forgery with: :exception
 
   before_filter :ensure_signup_complete, only: [:new, :create, :update, :destroy]
-
+  helper :application
   alias_method :devise_current_user, :current_user
   def current_user
      devise_current_user || current_saler
