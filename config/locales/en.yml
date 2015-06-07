@@ -1,0 +1,31 @@
+
+
+en:
+  aa: |
+      <p>
+      Abbiamo un team diversificato e internazionale con competenze da informatica pura al marketing\n\
+      e web design, al giornalismo e la creazione di contenuti professionali.\n\
+      </p>
+      <p>
+  lll: |  
+    
+    <p>
+
+    Nach einer gezielten On-Page-Optimierung, bei der das Augenmerk
+    auf technische und textliche Verbesserungen gelegt wird, gehen wir zu einer Off-Page-Optimierung über, bei der
+    die Sichtbarkeit der Webseite durch externe Massnahmen nachhaltig gesteigert wird.
+
+    </p>
+
+    <div style="height: 5px;">&nbsp;</div>
+  as: "asdfsdf \"asdfsd\" dsf"
+  layouts:
+    application:
+      title:      "Pragmatic Bookshelf"
+
+  store:
+    index:
+      title_html: "Your Pragmatic Catalog"
+      badd_html: "Add to Cart"
+
+

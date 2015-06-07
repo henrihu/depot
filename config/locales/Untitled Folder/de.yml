@@ -462,7 +462,7 @@ de:
         <li>Anchor-Texte und PageRank der linkenden Source-Pages
         <li>Backlinks der Konkurrenz
         <li>Target-Pages der Backlinks
-        <li>	Geschwindigkeit und Gestalt der Backlinkaufbau-Funktion
+        <li>  Geschwindigkeit und Gestalt der Backlinkaufbau-Funktion
         <li>..und mehr
         </ul>
 
@@ -561,7 +561,7 @@ de:
 
     </p>
     <p>
-  datenschutzpage:
+  datenschutzpage: |
     <p>
 
     <strong> Welche Informationen sammeln wir? </strong> <br /> <br />
@@ -2162,8 +2162,8 @@ de:
 
         </p>
 
-    adwordsoptimierungpage: | 
-               <p>
+  adwordsoptimierungpage: | 
+        <p>
         Google Adwords ist das mit Abstand erfolgreichste Online-Werbesystem. Die im Jahr 2000 gestartete Plattform bietet kleinen und großen Unternehmen die Möglichkeit, Anzeigen in den Google-Suchergebnissen und auf themenrelevanten Webseiten zu platzieren. Durch diese gezielte Ausrichtung an den Interessen der Nutzer können die Streuverluste auf ein Minimum reduziert werden.</p> 
 
 
@@ -2239,7 +2239,7 @@ de:
         Kunden sprechen für sich. Überlassen Sie den Erfolg Ihrer Adwords-Kampagne nicht dem Zufall – vertrauen Sie den Profis!
         </p>
         
-   threeseotipspage: |
+  threeseotipspage: |
         <h3>Januar 10, 2013</h3> 
         <p>
         Autor: <a href="https://plus.google.com/115427908678186580675?rel=author">Michael Kohlmann</a>   
@@ -2290,7 +2290,7 @@ de:
         entsprechenden Fachkenntnissen durchgeführt werden. 
         </p>
 
-   sixseotipspage: |
+  sixseotipspage: |
         <h3>Oktober 11, 2012</h3> 
         <p>
         Lokale Unternehmen sind in der Regel auf Kunden aus ihrer Region angewiesen. Entsprechend ist es für einen lokalen Anbieter überaus wichtig, in Google zu Suchbegriffen mit Lokalbezug gefunden zu werden (z.B. zu ‚Fahrschule Zürich’ oder ‚Druckerei Bern’). Die folgenden SEO-Tipps sollen Ihnen dabei helfen, Ihre Platzierungen in den Suchergebnissen zu verbessern und Ihre Umsätze zu steigern.
@@ -2331,11 +2331,11 @@ de:
         <p>
         Diese einfachen SEO-Tipps können Ihrem Unternehmen helfen, mehr potenzielle Kunden aus Ihrer Nachbarschaft zu erreichen. Mit einer guten Platzierung zu Suchbegriffen, die Menschen aus Ihrer Nachbarschaft bei der Google-Suche verwenden, erhöhen Sie die Wahrscheinlichkeit von Anrufen potenzieller Kunden um ein Vielfaches. 
         </p>
-       <p>
+        <p>
         Selbstverständlich können wir all diese Schritte sowie vieles andere für Sie übernehmen - eine erste unverbindliche Konsultation ist nur eine EMail oder einen Anruf entfernt.
         </p>
 
-   googleoptimierungpage: |
+  googleoptimierungpage: |
         <p>
         Google hat am 24. April 2012 seinen Ranking-Algorithmus aktualisiert (Google Penguin Update), mit dem offiziellen Ziel, „überoptimierte“ Webseiten abzustrafen.
         </p>
@@ -2348,7 +2348,7 @@ de:
         <p>
         Infolge des Updates sind zahlreiche, selbst große, hochkarätige Webseiten abgestraft worden. Dies bedeutet jedoch keinesfalls, dass SEO, also Suchmaschinenoptimierung seine Bedeutung verloren hat.
         </p>
-       <p>
+        <p>
         Im Gegenteil: Da SEO ein Muss ist, wenn eine Firma konkurrenzfähig bleiben will (denn die Nachfrage nach seriösen Unternehmen ist nach wie vor ungebrochen), ist „richtige Suchmaschinenoptimierung“ wichtiger denn je.
         </p>
         <p>
@@ -2377,7 +2377,7 @@ de:
         </p>
 
 
-   googleseopage: |
+  googleseopage: |
         <h2>Google SEO – Warum SEO kosteneffektiv ist</h2>
         <p>
         Eines der größten Probleme für lokale Firmen oder neue Firmen ist es, genügend Aufmerksamkeit für die eigenen Produkte oder Dienstleistungen zu erzeugen.
@@ -2426,7 +2426,7 @@ de:
         Warten Sie nicht lange mit Ihrer Entscheidung – fordern Sie jetzt eine kostenlose und unverbindliche Offerte an! Ihre Konkurrenz schläft nicht.
         </p>
 
-   joomlaseopage: |
+  joomlaseopage: |
         <h2>Worauf kommt es bei der Joomla SEO an?</h2>
         <p>Joomla ist eines der am weitesten verbreiteten Content Management Systeme (CMS). Die Plattform eignet sich hervorragend zur Erstellung von Firmenwebseiten, doch wie sieht es mit der  Suchmaschinenoptimierung aus? Im folgenden finden Sie einige Joomla SEO Tipps, mit denen Sie das Ranking ihrer Webseite entscheidend verbessern können.</p>
         <p>Die Ladezeit der Webseite spielt bei der <b>Joomla SEO</b> eine wichtige Rolle. Der Page Speed wird maßgeblich von der Dateigröße der Seiteninhalte bestimmt. Hochauflösende Bilder und Videos wirken auf den User zwar anziehend, doch im Hinblick auf die Ladezeit sind sie kontraproduktiv. Auch die Größe der JavaScript-Dateien ist für die Joomla SEO von Bedeutung. Die Standard-Dateien caption.js und mootools.js werden im Regelfall nicht benötigt und können daher deaktiviert werden. CSS-Dateien können mithilfe von Erweiterungen wie Jbetolo komprimiert werden, sodass sich die Ladezeit der Seite auf ein erträgliches Maß verkürzt.</p>
@@ -2436,7 +2436,7 @@ de:
         <p>Um Einstellungen für die <b>Joomla SEO</b> direkt auf der Oberfläche vornehmen zu können, sollte die Version 2.5+ genutzt werden. User, die die ältere Version 1.5 nutzen, können lediglich die URL umschreiben und die Meta-Tags bearbeiten. Ab der Version 2.5 werden Funktionen angeboten, die die Joomla SEO erheblich erleichtern. So kann beispielsweise die Seitenüberschrift als H1-Überschrift angezeigt werden, sodass sie für die Suchmaschinen sichtbar wird. Der Seitenname kann als Seitentitel gewählt werden, und es ist sogar möglich, einen Alias für Beiträge zu setzen.</p>  
         <p>SEO Suisse zählt zu den führenden Spezialisten für Joomla SEO im deutschsprachigen Raum. Im Rahmen einer detaillierten Analyse ermitteln wir Ihren Bedarf und gestalten Ihre Firmenwebseite so um, dass sie den Anforderungen der Suchmaschinen entspricht.</p>                         
 
-   offpageoptimierungpage: |
+  offpageoptimierungpage: |
         <p>Die Arbeitsweise der Suchmaschinen hat sich in den letzten Jahren stark verändert. Eine  Keywordoptimierung reicht heute nicht mehr aus, um einer Webseite zu einer guten Platzierung zu verhelfen. Ein dauerhaft hohes Ranking lässt sich erst durch eine umfassende Offpage Optimierung erreichen.</p> 
         <p>Im Gegensatz zur Onpage-SEO ist die <b>Offpage Optimierung</b> ein aufwendiger Prozess, der sich über Monate erstreckt. Diese Arbeit ist jedoch notwendig, um eine Webseite auf den vorderen Plätzen der Suchmaschinen zu etablieren. Qualität und Konstanz sind die Faktoren, die letztlich über den Erfolg einer Seite entscheiden.</p> 
         <h3>Was geschieht bei einer Offpage Optimierung?</h3>
@@ -2449,7 +2449,7 @@ de:
         <p>Positive soziale Signale spielen heute bei der Offpage Optimierung eine wichtige Rolle. Social Networks wie Twitter und Facebook durchdringen inzwischen nahezu alle Lebensbereiche. Die Suchmaschinen betrachten soziale Signale daher als einen Gradmesser für die Qualität von Webseiten. Je mehr User sich über ein Unternehmen und seine Produkte unterhalten, desto besser.</p> 
         <p>Wenn Sie Ihrer Webseite durch eine <b>Offpage Optimierung</b> zu einer höheren Suchmaschinenplatzierung verhelfen wollen, ist SEO Suisse der richtige Ansprechpartner. Unsere SEO-Experten versorgen Ihre Unternehmenswebseite mit hochwertigen Links und legen so den Grundstein für ein stabiles Ranking. Auf Wunsch legen wir die erforderlichen Social Media-Accounts an und binden Ihren Webauftritt dort ein.</p> 
     
-   onpageoptimierungpage: |
+  onpageoptimierungpage: |
         <h2>Was versteht man unter einer Onpage Optimierung?</h2>
         <p>Unter dem Begriff “Onpage Optimierung” versteht man SEO-Maßnahmen, die auf der eigenen Webseite vorgenommen werden. Neben inhaltlichen und strukturellen Aspekten spielen bei der Optimierung auch technische Faktoren eine Rolle. Die <b>Onpage Optimierung</b> sollte immer vor der Offpage Optimierung erfolgen, da der Aufbau von Backlinks ohne entsprechende Landeseiten wenig effizient ist.</p> 
         <p>Die Onpage Optimierung beginnt mit der Auswahl geeigneter Schlüsselwörter, für die hohe Positionen in den Suchmaschinen angestrebt werden. Um themenbezogene Suchbegriffe zu finden, können kostenlose Tools wie “Wordtracker” oder “Google Keyword Tool” benutzt werden. Der Nachteil solcher Programme ist, dass sie einen sehr begrenzten Funktionsumfang haben. Beim Google Keyword Tool werden standardmäßig nur 100 Suchbegriffe angezeigt. Erfahrene SEO-Spezialisten nutzen professionelle Tools, mit denen sich die Kampagnentauglichkeit von Keywords analysieren lässt.</p> 
@@ -2462,7 +2462,7 @@ de:
         <p>Eine suchmaschinengerechte <b>Onpage Optimierung</b> ist weitaus schwieriger, als es den Anschein macht. Neben den technischen Aspekten stellt vor allem die Erstellung keywordoptimierter Texte den Laien vor große Probleme. Bei Firmenwebseiten gelten andere Qualitätsanforderungen als bei Privatblogs. Um Besucher anzulocken, müssen die Texte nicht nur gut recherchiert, sondern auch präzise formuliert und frei von Fehlern sein.</p> 
         <p>Wenn Sie eine professionelle Onpage Optimierung ihrer Firmenwebseite vornehmen lassen möchten, ist SEO Suisse der richtige Ansprechpartner. Unsere Suchmaschinenexperten analysieren Ihre Webpräsenz und unterbreiten Ihnen ein individuelles Optimierungsangebot.</p> 
 
-   rankingoptimierungpage: |
+  rankingoptimierungpage: |
         <p>
         Wenn Sie das Ranking Ihrer Webseite zu einem bestimmten Keyword verbessern möchten, ist Suchmaschinenoptimierung, kurz SEO, das richtige Mittel.
         </p>
@@ -2511,7 +2511,7 @@ de:
         <p>
         Mithilfe der Keyword- und der Konkurrenzanalyse können wir eine konkrete SEO-Strategie für Ihre Webseite erstellen - einen genauen Plan für die Ranking Optimierung. Dabei nehmen wir selbstverständlich auch Rücksicht auf Ihr Budget.
         </p>
-   seoanalysispage: |
+  seoanalysispage: |
         <p>
         Eine SEO-Analyse ist heute bereits eine relativ komplexe Aufgabe. So werden heute zum einen
         selbstverständlich von allen SEO-Spezialisten zum einen die klar sichtbaren OnPage-Aspekte einer 
@@ -2561,7 +2561,7 @@ de:
         von aussen zu einem Top 10 Ranking führen.
         </p>
                 
-   seoberaterpage: |
+  seoberaterpage: |
         <h2>Ein SEO Berater prüft Firmenwebseiten auf Herz und Nieren</h2>
         <p>Viele Unternehmen lassen sich von externen Experten beraten, um strukturelle Schwächen  aufzudecken und ihre Marktposition zu festigen. Im Online-Zeitalter sind SEO-Spezialisten ebenso gefragt wie Unternehmensberater: Fast alle mittleren und großen Betriebe greifen inzwischen auf die Dienste eines SEO Beraters zurück, der ihre Webseiten analysiert und Verbesserungsmöglichkeiten aufzeigt.</p>
         <p>Ein gezieltes Online-Marketing ist heute ohne einen kompetenten SEO Berater nicht mehr durchführbar, da die Kriterien der Suchmaschinen immer strenger werden. Gerade in stark umkämpften Märkten bedarf es einer wohlüberlegten Strategie, um auf die Top-Positionen der Trefferlisten zu gelangen. Ein <b>SEO Berater</b> entwirft gemeinsam mit dem auftraggebenden Unternehmen einen Aktionsplan, der sämtliche Maßnahmen enthält, die zum Erreichen eines hohen Rankings erforderlich sind. Falls noch kein Web-Auftritt vorhanden ist, wird ein Entwurf für eine Homepage oder einen Webshop erstellt.</p>
@@ -2572,7 +2572,7 @@ de:
         <p>Gute SEO Berater erkennen auf den ersten Blick, was einer Webseite fehlt, um auf die Spitzenpositionen der Suchmaschinen zu gelangen. Seiten mit einer niedrigen Suchmaschinenplatzierung mangelt es häufig an suchmaschinenfreundlichen Inhalten. SEO Berater nehmen die Texte kritisch unter die Lupe und prüfen, ob relevante Keywords enthalten sind. Sie  vermitteln den Mitarbeitern des Unternehmens wichtige Grundlagen der Suchmaschinenoptimierung, sodass sie imstande sind, die Webseite eigenständig umzugestalten und Linkaufbau zu betreiben.</p> 
         <p>Die Webagentur SEO Suisse ist eine der ersten Anlaufstellen für Firmen, die einen <b>SEO Berater</b> engagieren wollen. Durch unsere langjährige Erfahrung sind wir in der Lage, Webseiten von Unternehmen aller Branchen zu einem hohen Suchmaschinenranking zu verhelfen. Auf Wunsch analysieren wir Ihre Unternehmenswebseite und unterbreiten Ihnen ein unverbindliches Beratungsangebot.</p>
 
-   seo-content-marketingpage: |
+  seo-content-marketingpage: |
 
         <h3>Juni 28, 2012</h3>
 
@@ -2649,7 +2649,7 @@ de:
           Jedoch funktioniert eine Content-Strategie nur, wenn die Nutzbarkeit einer Website nicht im Inhalt verloren geht. 
           Daher ist es wichtig ein richtiges Maß zu finden, denn zu viel des Guten wird sicherlich von den Suchmaschinen, als auch von den Besuchern der Site, negativ bewertet. 
 
-   seo-dienstleistungenpage: |
+  seo-dienstleistungenpage: |
         <p><a href="http://seosuisse.ch/suchmaschinenoptimierung">Suchmaschinenoptimierung</a> (SEO) umfasst 
         verschiedene Dienstleistungen, die an die Bereiche Webdesign bzw. Web-Programmierung und Online-Marketing angrenzen 
         und meistens von <a href="http://seosuisse.ch/seo-agentur">SEO Agenturen</a> übernommen werden. 
@@ -2689,8 +2689,7 @@ de:
         Linkaufbaus zeichnet sich dadurch aus, dass Links nur auf relevante externe Seiten mit gutem Ranking gesetzt werden. 
 
 
-   seoexpertpage: |
-           
+  seoexpertpage: |             
         <h2>Wie arbeitet ein SEO Experte?</h2>
         <p>Das Internet ist voll von Webseiten, auf denen dem Laien erklärt wird, wie man eine SEO-Kampagne führt. Den ahnungslosen Kunden wird eine Top-Position für jedes beliebige Schlüsselwort in Aussicht gestellt. Wer sich im Bereich der SEO halbwegs auskennt, weiß, dass dies ein Ding der Unmöglichkeit ist. Große Konzerne verteidigen ihre Rankings mit Budgets, die nicht selten im siebenstelligen Bereich liegen. Kein noch so kompetenter <b>SEO Experte</b> ist in der Lage, eine Nr.1-Platzierung für ein Keyword wie “Smartphone” zu erreichen. Wirkliche Experten arbeiten geräuschlos und machen keine Versprechungen, die sie nicht halten können.</p>
         <h3>Wie findet man einen SEO Experten?</h3>
@@ -2701,9 +2700,7 @@ de:
         <p>Die nun folgende SEO-Kampagne nimmt einige Monate in Anspruch. In dieser Zeit werden Backlinks aufgebaut, die von vielen verschiedenen Quellen stammen. Nach einiger Zeit verbessert sich das Ranking und pendelt sich schließlich im Top Ten-Bereich ein. Der Kunde kann fortan mit einem konstanten Zulauf von potenziellen Kunden rechnen. Ein wahrer <b>SEO Experte</b> ist sein Geld in jedem Fall wert, da man von den Ergebnissen einer solchen Kampagne auf Jahre hinaus profitiert.</p>
         <p>SEO Suisse ist eine seriöse Webagentur, in der einige der besten SEO Experten der Branche arbeiten. Unsere Mitarbeiter beraten Sie ausführlich zu allen Fragen rund um das Thema Suchmaschinenoptimierung. Auf unserer Internetseite finden Sie eine Übersicht über abgeschlossene Referenzprojekte und weitere Informationen.</p>
 
-   seofirmapage: |        
-           
-           
+  seofirmapage: |          
         <h2>Was eine gute SEO Firma ausmacht</h2>
         <p>SEO-Neulinge machen oft den Fehler, schnell und unüberlegt vorzugehen. Entgegen der landläufigen Meinung ist die Suchmaschinenoptimierung ein schwieriges Feld, das viele Tücken in sich birgt. Ein einmal angerichteter Schaden lässt sich nur schwer reparieren. Viele Unternehmen entscheiden sich daher, eine SEO Firma mit der Optimierung ihrer Webseite zu betrauen.</p> 
         <h3>Woran erkennt man eine kompetente SEO Firma?</h3> 
@@ -2715,8 +2712,7 @@ de:
         <p>Es ist eine gute Idee, nach einer SEO Firma Ausschau zu halten, die sich mit Kampagnen für lokal und regional aufgestellte Unternehmen auskennt. Wenn eine <b>SEO Firma</b> den Job übernimmt, die überwiegend für Großkonzerne tätig ist, hat dies zwei Nachteile: Einerseits verfügen solche Firmen oft nicht über die nötige Expertise im Bereich der lokalen SEO. Zum anderen sind die Kosten für die Kampagne um ein Vielfaches höher als bei regionalen Dienstleistern.</p>
         <p>SEO Suisse ist eine der führenden SEO Firmen in der Schweiz. Seit vielen Jahren führen wir erfolgreich SEO-Projekte für kleine, mittlere und große Unternehmen durch. Unsere Experten kennen die Arbeitsweise der Suchmaschinen genau und sind deshalb in der Lage, Unternehmenswebseiten dauerhaft auf den Top-Positionen zu etablieren.</p>
 
-   seo-fuer-den-mittelstandpage: |        
-          
+  seo-fuer-den-mittelstandpage: |
         <h3>Juni 16, 2012</h3>
 
         <p>In Zusammenhang mit einer Studie, die weltweit in 14 Ländern durchgeführt wurde, hat man die Homepages von Klein- und Mittelstandsunternehmen 
@@ -2767,7 +2763,7 @@ de:
          
          </p>
 
-seokeywordspage: |
+  seokeywordspage: |
 
         <h2>Was bei der Auswahl von SEO Keywords zu beachten ist</h2>
 
@@ -2787,7 +2783,7 @@ seokeywordspage: |
          
         <p>Die Keywordsuche ist eine Disziplin, die viel Erfahrung erfordert. Die Spezialisten von SEO Suisse verfügen über ein exzellentes Fachwissen im Bereich des Search Engine Marketing und wählen geeignete SEO Keywords für Ihre Unternehmenswebseite aus. Vor Beginn der Kampagne wird jedes Schlüsselwort auf seine SEO-Tauglichkeit überprüft. Dabei kommen professionelle Tools zum Einsatz, die exakte und verlässliche Ergebnisse liefern. Top-Platzierungen in den Suchmaschinen sind kein Zufall – mit den richtigen SEO Keywords lässt sich dauerhaft hohes Ranking in absehbarer Zeit realisieren.</p>           
         
-   seooptimizationpage: |
+  seooptimizationpage: |
    
         <p>
         Eine <em>"SEO-Optimierung"</em> ist genaugenommen ein redundanter Begriff, denn <b>SEO</b> steht selber
@@ -2834,8 +2830,8 @@ seokeywordspage: |
         bereits auf den Rängen 1-10 in Google, und zwar auf Jahre hinaus.
         </p>
 
-   seorankingpage: |
-         
+  seorankingpage: |
+   
         <h2>Wie verbessert man das SEO Ranking von Webseiten?</h2>
 
         <p>Das SEO Ranking spielt für die Auffindbarkeit einer Webseite eine entscheidende Rolle. Je weiter vorne eine Seite in den Trefferlisten der Suchmaschinen platziert ist, desto größer ist die Chance auf ein hohes Besucheraufkommen. Da heute ein Großteil der Verkaufsaktivitäten von Unternehmen über die eigene Firmenwebseite abgewickelt wird, ist ein gutes <b>SEO Ranking</b> gleichbedeutend mit konstant hohen Umsätzen.</p>
@@ -2854,7 +2850,7 @@ seokeywordspage: |
 
         <p>SEO Suisse ist eine etablierte Webagentur, die schon viele Firmenwebseiten auf die Top-Positionen der Suchmaschinen befördert hat. Unsere erfahrenen Internetexperten entwickeln für jeden Kunden eine individuelle Strategie, die genau auf das jeweilige Unternehmensprofil zugeschnitten ist. Wir geben uns erst dann zufrieden, wenn Ihre Webseite ein dauerhaft hohes <b>SEO Ranking</b> erreicht hat.</p>       
         
-   seoseminarpage: |
+  seoseminarpage: |
 
 
         <h2>Was kann man von einem SEO Seminar erwarten?</h2> 
@@ -2891,7 +2887,7 @@ seokeywordspage: |
 
         <p>Wenn Sie Ihrer Webseite durch einen professionellen <b>SEO Service</b> zu mehr Traffic verhelfen wollen, können Sie sich vertrauensvoll an SEO Suisse wenden. Wir sind seit vielen Jahren im Bereich des Suchmaschinenmarketings aktiv und wissen, wie man Firmenseiten auf die Top-Positionen von Google und Co. befördert. Mit einer Suchmaschinenoptimierung von SEO Suisse wird Ihre Webseite zu einem erfolgreichen Vertriebsinstrument.</p>   
         
-   seotippspage: |
+  seotippspage: |
         <p>In der <a href="http://seosuisse.ch/suchmaschinenoptimierung">Suchmaschinenoptimierung</a> (SEO) gibt es viele Methoden und Tipps, die alle darauf abzielen, Websites bei den organischen Ergebnissen auf Suchmaschinen (vor allem Google) nach oben zu bringen. SEO Tipps können sich im Laufe der Zeit ändern, denn Suchmaschinen überarbeiten und verfeinern ihre Bewertungsmethoden laufend. Viele SEO Tipps haben sich jedoch über einen langen Zeitraum hin bewährt und werden auch in Zukunft sehr wahrscheinlich noch gültig sein. </p>
         <h2>SEO Tipps für die OnPage-Optimierung</h2>
         <p>SEO fängt bei der Website selbst an (<a href="http://seosuisse.ch/onpage-optimierung">OnPage</a>), denn hier kann einiges optimiert werden. Beim Inhalt kommt es vor allem auf die richtigen (<a href="http://seosuisse.ch/seo-keywords">Keywords</a> an. Für einen Werbeartikel-Webshop kann das z.B. „Werbegeschenk“ sein.</p> 
@@ -2900,11 +2896,11 @@ seokeywordspage: |
         <p>Flash sollte auf Websites nur dort eingesetzt werden, wo es sinnvoll bzw. notwendig ist und Links am besten niemals in Flash eingebunden sein. Dieser SEO Tipp ist deshalb wichtig, weil Flash durch seine Struktur schwieriger als HTML zu optimieren ist und nicht alle Inhalte von Suchmaschinen-Crawlern erfasst werden können.</p> 
         <p>Viele <b>SEO Tipps</b> beziehen sich auf die Meta-Struktur von Websites: Im Idealfall kommt das Haupt-Keyword bereits im Domain-Namen vor. Eine klare Navigation wirkt sich ebenfalls positiv auf das Ranking aus. Wichtige Keywords sollten in Überschriften und Hervorhebungen (fett, kursiv) vorkommen.</p>
         <h2>SEO Tipps für die OffPage-Optimierung</h2>
-       <p>Zur SEO gehört auch die sogenannte (<a href="http://seosuisse.ch/offpage-optimierung">OffPage-Optimierung</a>, die alle Maßnahmen außerhalb der eigenen Website einschließt. Ein Großteil der <i>SEO Tipps</i> bezieht sich dabei auf das Linkbuilding, also das Aufbauen von Verlinkungen auf externen Websites zur eigenen Seite.</p> 
+        <p>Zur SEO gehört auch die sogenannte <a href="http://seosuisse.ch/offpage-optimierung">OffPage-Optimierung</a>, die alle Maßnahmen außerhalb der eigenen Website einschließt. Ein Großteil der <i>SEO Tipps</i> bezieht sich dabei auf das Linkbuilding, also das Aufbauen von Verlinkungen auf externen Websites zur eigenen Seite.</p> 
         <p>SEO Tipps zum Linkbuilding sind deshalb so häufig, weil Suchmaschinen die Popularität einer Website auch nach der Anzahl und Qualität der Websites bewerten, die zu ihr verlinken. Ein Tipp vieler SEO Agenturen zum Linkaufbau ist, Website-Betreiber bzw. Online-Redakteure direkt anzuschreiben und seine Website vorzustellen. Stößt diese auf Interesse,  sind die Chancen auf einen Link oder evtl. sogar einen Artikel gut.</p>
         <p>Auch, wer alle SEO Tipps richtig umsetzt, braucht etwas Geduld, denn Suchmaschinen bewerten Websites eher auf langfristiger Basis und die Popularität einer Website wächst erst nach und nach. In den meisten Fällen ist mit mehren Monaten zu rechnen, bevor sich SEO Tipps deutlich bezahlt machen.</p>        
 
-   seotrickspage: |
+  seotrickspage: |
         <h2>SEO Tricks – die geheimen Methoden der Suchmaschinenspezialisten</h2>
         <p>Die Abkürzung SEO steht für den Begriff ”Search Engine Optimization“ (dt. Suchmaschinenoptimierung). Das Ziel einer solchen Optimierung ist es, eine Internetseite in den Trefferlisten der Suchmaschinen möglichst weit vorne zu positionieren. Um Webseiten ohne Umwege in die Top Ten zu befördern, wenden Suchmaschinenoptimierer SEO Tricks an, die schnell Wirkung zeigen.</p>
         <p>Bei der SEO dreht sich vieles um Backlinks. Hiermit sind anklickbare Verweise gemeint, die auf die eigene Webseite zeigen. Manche selbst ernannten SEO-Experten, die sich damit brüsten, alle SEO Tricks zu kennen, setzen innerhalb weniger Stunden mehrere Tausend Links auf Webseiten, deren Qualität zweifelhaft ist. In einschlägigen Foren werden Linkpakete zu Dumpingpreisen angeboten. Derartige <b>SEO Tricks</b> sind der Reputation der eigenen Seite abträglich und werden von erfahrenen Suchmaschinenoptimierern gemieden. Seriöses Linkmarketing zielt immer darauf ab, Backlinks auf hochwertigen Seiten zu platzieren, damit der begehrte “Link Juice” an die verlinkte Seite weitergegeben wird.</p>
@@ -2915,7 +2911,7 @@ seokeywordspage: |
         <p>Auch die besten SEO Tricks sind wirkungslos, wenn man sie nicht richtig anzuwenden weiß. Um die Suchmaschinen von der Qualität einer Seite zu überzeugen, kommt es vor allem auf die richtige Mischung verschiedener SEO-Maßnahmen an. Erfahrene Suchmaschinenoptimierer finden das richtige Maß und achten darauf, dass die Webseite zu jedem Zeitpunkt über einen ausgewogenen Linkmix verfügt und kontinuierlich mit frischen Inhalten versorgt wird. SEO Tricks entfalten nur dann ihre volle Wirkung, wenn sie in eine schlüssige Gesamtstrategie eingebettet sind. Durch punktuelle Maßnahmen wird allenfalls eine kurzfristige Verbesserung des Rankings erreicht.</p>
         <p>SEO Suisse ist einer der führenden Suchmaschinenoptimierer in der Schweiz. Unsere erfahrenen Internetexperten kennen alle <b>SEO Tricks</b>, die dazu geeignet sind, Webseiten ein dauerhaft hohes Ranking zu verschaffen. Durch unser Know-how sind wir in der Lage, für jedes Unternehmen eine maßgeschneiderte Strategie zu entwickeln, die mit allen anderen Werbemaßnahmen perfekt abgestimmt ist.</p>
         
-   seriousoptimizationpage: |
+  seriousoptimizationpage: |
         <p>
         Was ist eigentlich seriöse Suchmaschinenoptimierung? Diese Frage lässt sich nicht pauschal beantworten, denn hierbei zählt nicht etwa, ob das Webseitendesign des jeweiligen Unternehmens professionell aussieht. Vielmehr müssen einzelne Aspekte genauer betrachtet werden:
         </p>
@@ -2937,7 +2933,7 @@ seokeywordspage: |
         <p>
         Seriöse Suchmaschinenoptimierung sollte mindestens diese fünf Aspekte abdecken können.
         </p>
-   weboptimierungpage: |
+  weboptimierungpage: |
 
         <h2>Weboptimierung für die Schweiz: Interessantes und Wissenswertes</h2> 
         <p>
@@ -2972,7 +2968,7 @@ seokeywordspage: |
         Der Internetadresse (URL) wird bei Weboptimierungen oftmals zu wenig Beachtung geschenkt. Obgleich die Adresslänge nicht als klassischer Rankingfaktor gilt, spielt sie für Google und Co. dennoch eine Rolle, da kurze URLs in den Trefferlisten häufiger angeklickt werden als lange. Zudem werden kurze URLs eher verlinkt oder weiterempfohlen. Bei der Weboptimierung für die Schweiz hat man den Vorteil, dass es zu beinahe jedem Thema eine Vielzahl von freien Internetadressen gibt. Nach Möglichkeit sollte man eine Domain mit .ch-Endung wählen, da diese auf Schweizer Internetnutzer die größte Anziehungskraft ausübt.
         </p>
 
-   heroseoschweizpage: |
+  heroseoschweizpage: |
 
         <h2>Suchmaschinenoptimierung in der Schweiz</h2>
 
@@ -3013,7 +3009,7 @@ seokeywordspage: |
         Dementsprechend hat man es bei der Suchmaschinenoptimierung in der Schweiz mit weitaus weniger Konkurrenten zu tun als in Deutschland, wo es zu fast jedem Suchbegriff optimierte Webseiten gibt. In manchen Branchen genügen bereits einige Links von reputativen Quellen, um das Ranking deutlich anzuheben. Konzentriert man sich auf ausgesuchte Schlüsselwörter, liegt ein Top-10-Ranking innerhalb weniger Monate durchaus im Bereich des Möglichen.
         </p>
 
-   suchmaschinenoptimierungkostenlospage: |
+  suchmaschinenoptimierungkostenlospage: |
         <p>Für kleine und mittelständische Firmen mit Sitz in der Schweiz starten wir ab dem 01. Januar 2014 eine Sonderaktion: Der SEO-Gutschein im Wert von 100 CHF bietet Ihnen die Chance, eine professionelle <b>Suchmaschinenoptimierung kostenlos</b> zu testen. Unser Team erstellt für Sie eine Reihe hochwertiger Backlinks, die zu einer Seite Ihrer Wahl führen. Den Suchbegriff für Ihre Testkampagne können Sie frei wählen.</p>
         <p>Der <a href='/seo-gutschein'>SEO-Gutschein</a> von SEO Suisse stellt für jedes Unternehmen 
         einen echten Mehrwert dar: Selbst wenn Sie sich nach Inanspruchnahme des Gutscheins gegen eine weitere Zusammenarbeit mit uns entscheiden, wird Ihre Seite durch die Anhebung der Suchmaschinenplatzierung ein spürbares Besucherplus verzeichnen. In vielen Fällen wird bereits nach einigen Tagen eine Verbesserung des Rankings erreicht.</p> 
@@ -3029,7 +3025,7 @@ seokeywordspage: |
         <h3>Was geschieht, wenn der SEO-Gutschein aufgebraucht ist?</h3>
         <p>Wenn Sie eine Suchmaschinenoptimierung kostenlos bei SEO Suisse testen, gehen Sie keinerlei Risiko ein: Es besteht kein Zwang zu einer weiteren Zusammenarbeit. Nach Ablauf der Testphase bieten wir Ihnen eine längerfristige SEO-Kampagne zu attraktiven Konditionen an.</p> 
 
-   websiteoptimierenpage: |
+  websiteoptimierenpage: |
         <h2>Lohnt es sich, eine Website optimieren zu lassen?</h2>  
         <p>Es gibt wohl keinen Geschäftsinhaber, der nicht stolz ist, wenn seine Internetpräsenz komplett ist und in neuem Glanz erstrahlt. Spätestens nach einigen Wochen folgt die Ernüchterung: Die Besucherzahlen bleiben weit hinter den eigenen Erwartungen zurück, und die Umsätze stagnieren. Der Grund dafür ist, dass die Seite in den Trefferlisten der Suchmaschinen nicht zu finden ist. Um einen der vorderen Ränge zu erobern, lassen viele Unternehmen deshalb ihre <b>Website optimieren</b>. Dazu beauftragen sie professionelle SEO-Agenturen, die die Webseite auf ihre Suchmaschinentauglichkeit prüfen und so überarbeiten, dass sie den Anforderungen von Google und Co. genügen.</p>
         <p>Eine Grundweisheit in der SEO ist: Wer eine Website optimieren möchte, muss sich zuallererst um die Inhalte der Seite kümmern. Wenn die Webseite bereits für einige Keywords in den Top-Positionen rangiert, kann ein Teil der Inhalte übernommen werden. In den meisten Fällen sind die Texte jedoch kaum zu gebrauchen und müssen durch neue Inhalte ersetzt werden. Um die Crawler der Suchmaschinen zu füttern, werden die Texte mit themenrelevanten Keywords gespickt. Dabei wird darauf geachtet, dass der Lesefluss nicht gestört wird – schließlich sind Webseiten in erster Linie für Menschen gedacht.</p>
@@ -3040,7 +3036,7 @@ seokeywordspage: |
         <p>Prinzipiell kann jeder, der über ein gewisses Basiswissen im Bereich der Suchmaschinenoptimierung verfügt, eine Website optimieren. Amateure erreichen ihr Ziel oft deswegen nicht, weil sie entweder zu früh aufgeben oder sich in unwichtigen Details verzetteln. Das Internet ist voll von Foren, in denen angebliche Experten erklären, wie man eine Webseite optimieren sollte. Dabei bedienen sie die jeweils aktuellen Trends und versuchen, teure E-Books oder Linkbuilding-Tools zu verkaufen. Ein echter SEO-Spezialist lässt sich von solchen Modeerscheinungen nicht beeindrucken und hat immer das ganze Bild im Blick. Eine gelungene Suchmaschinenkampagne beinhaltet eine Fülle von Maßnahmen, die erst durch ihr Zusammenwirken ihre volle Kraft entfalten.</p>  
         <p>Wenn Sie Ihre <b>Website optimieren</b> lassen wollen, ist SEO Suisse der richtige Ansprechpartner. Wir optimieren ausschließlich gemäß den Regeln der Suchmaschinen und sorgen für einen organischen Linkaufbau, sodass Ihre Seite innerhalb von Monaten ein Top-Ranking erreicht. Transparenz und detaillierte Fortschrittsberichte sind bei uns selbstverständlich.</p>
 
- suchmaschinenpage: |
+  suchmaschinenpage: |
  
         <p>
         Suchmaschinen wie Google, Bing oder Yahoo sind sozusagen das Rückgrat des heutigen Internets. Das weltweite 
@@ -3089,7 +3085,7 @@ seokeywordspage: |
         </p>
 
 
-suchmaschineneintragpage: |
+  suchmaschineneintragpage: |
         <h2>Suchmaschineneintrag und andere unnötige SEO-Maßnahmen</h2>
         <p>
         Womöglich sind auch Sie mal im Internet über „SEO-Angebote“ „Suchmaschineneintrag kostenlos in 1.000 Suchmaschinen“ oder wie „Wir tragen Ihre Webseite bei über 2.500 Suchmaschinen ein“ gestolpert.
@@ -3129,7 +3125,7 @@ suchmaschineneintragpage: |
         </ul>
         </p>
 
-   suchmaschinenoptimiererpage: |
+  suchmaschinenoptimiererpage: |
 
         <h2>Was ein guter Suchmaschinenoptimierer können muss</h2>
 
@@ -3149,7 +3145,7 @@ suchmaschineneintragpage: |
         ist für uns ebenso selbstverständlich wie eine transparente Preisgestaltung.</p>
 
 
-   webseitenoptimierungpage: |
+  webseitenoptimierungpage: |
 
 
         <p>Suchmaschinenoptimierung scheint oft keine klaren Regel zu haben. Doch wenn es um Webseitenoptimierung, also das Verbessern einzelner Webseiten geht (OnSite-Optimierung), gibt es durchaus klare Richlinien, an denen man sich orientieren sollte:
@@ -3246,7 +3242,7 @@ suchmaschineneintragpage: |
 
         </p>
 
-   seoin2013page: |
+  seoin2013page: |
 
 
         <h3>April 14, 2013</h3> 
@@ -3298,7 +3294,7 @@ suchmaschineneintragpage: |
         </p>
 
 
-   serp-konkurrenzpage: |
+  serp-konkurrenzpage: |
 
         <h3>Juli 10, 2012</h3>
 
@@ -3356,7 +3352,7 @@ suchmaschineneintragpage: |
          Firma lebenswichtigen, Vorsprung entwickeln.
         </p>
         
-   seoexceptgooglepage: |
+  seoexceptgooglepage: |
 
 
         <h3>November 27, 2011</h3>
@@ -3374,6 +3370,10 @@ suchmaschineneintragpage: |
         </p>
         <p>
         Genausowenig kann sich heute jemand, zumindest in der westlichen Welt, eine Alternative zu Google vorstellen. Der übermächtige Such-Gigant kontrolliert je nach Studie ca. 80-90% des Suchtraffics, und es nicht abzusehen, wer ihm diesen Rang auch nur annähernd streitig machen könnte.
+        </p>
+        <p>
+
+         Yahoo ist klar auf dem absteigenden Ast – die kürzliche Entlassung der CEO Carol Bartz hat nicht viel verändert – und Bing kann trotz Milliardeninvestitionen von Microsoft immer noch nicht so richtig über die 10% Hürde klettern.
         </p>
         <p>
 
@@ -3402,7 +3402,7 @@ suchmaschineneintragpage: |
         </p>
         <p>
 
-   ysehowlongpage: |
+  ysehowlongpage: |
 
         <h3>November 11, 2011</h3>
 
@@ -3423,4 +3423,8 @@ suchmaschineneintragpage: |
         <p>Bis dahin stossen viele erfahrene SEOs überall auf der Welt einen leisen Toast an, zum Abschied eines der letzten und besten freien Tools auf dem Markt.</p>
 
 
+                                                                 
+
+
+        
                                                                  
