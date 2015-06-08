@@ -76,10 +76,20 @@ group :development, :test do
   gem 'rspec-rails', '~> 3.0'
 end
 
+gem 'mysql2'
 group :development do
-  gem 'sqlite3'
+  # gem 'sqlite3'
+  
 end
+
 group :production do
-  gem 'pg'
+  
+  # gem 'pg'
   gem 'rails_12factor'
+  gem 'passenger'
+  # Use Capistrano for deployment
+  # gem 'capistrano', '~> 3.0.1'
+  # gem 'capistrano-rails', '~> 1.1.0'
+  # gem 'capistrano-bundler'
+  # gem 'capistrano-rbenv', "~> 2.0"
 end

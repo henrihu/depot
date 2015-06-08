@@ -3,6 +3,7 @@ class Saler < ActiveRecord::Base
   # :confirmable, :lockable, :timeoutable and :omniauthable
   devise :database_authenticatable, :registerable,
          :recoverable, :rememberable, :trackable, :validatable
+  attr_accessible :name, :email, :password, :description, :image
 
   mount_uploader :image, AvatarUploader
 

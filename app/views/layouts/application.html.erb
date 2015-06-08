@@ -17,8 +17,9 @@
   <%= csrf_meta_tags %>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
-<body class='<%= controller.controller_name %> container'>
-  <div id="banner" class="navbar ">
+<body class='<%= controller.controller_name %> '>
+<div class = "container">
+  <div id="banner" class="navbar navbar-default ">
     <%= form_tag store_path, class: 'locale' do %>
       <%= select_tag 'set_locale',
              options_for_select(LANGUAGES, I18n.locale.to_s),
@@ -33,7 +34,7 @@
     <% end %>
     <%= @page_title || t('.title') %>
     <div class = "login">
-      <p class="navbar-text pull-right">
+      <p class="pull-right">
         <% if user_signed_in?  %>
           Logged in as <strong><%= current_user.email %></strong>.
           <%= link_to 'Edit profile', edit_user_registration_path, :class => 'navbar-link' %> |
@@ -53,9 +54,8 @@
         <% end %>
     </div>
   </div>
-  </div>
   <div id="columns" >
-    <div id="side" class="nav-collapse" >
+    <div id="side"  >
       <div id="cart">
         <% if @cart %>
           <%= hidden_div_if(@cart.line_items.empty?, id: 'cart') do %>
@@ -90,21 +90,22 @@
       </div>
     </div>
     <div id="main">
-      <p class="notice"><%= notice %></p>
-      <p class="alert"><%= alert %></p>
+      <!--<p class="notice"><%= notice %></p>-->
+      <!--<p class="alert"><%= alert %></p>-->
       <% if !(session[:visit_count].nil?) && session[:visit_count] > 3 %>
       <h2><%= "you visit store " + pluralize(session[:visit_count], "time") %></h2>
       <% end %>
 
       <%= yield %>
 
+      <footer>
+        <div class="container">
+          Rails UpWork! 2015
+        </div>
+      </footer>
     </div>
+
   </div>
-  <footer>
-    <div class="container">
-      Rails UpWork! 2015
-    </div>
-  </footer>
-  <script src="//railsgirls.com/assets/bootstrap.js"></script>
+</div>
 </body>
 </html>
