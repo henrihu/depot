@@ -13,7 +13,7 @@ development:
   reconnect: false
   database: depot_production
   pool: 5
-  username: root
+  username: depot_user
   password: 12345
   host: localhost
 
