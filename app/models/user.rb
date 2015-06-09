@@ -7,7 +7,8 @@ class User < ActiveRecord::Base
   # :confirmable, :lockable, :timeoutable and :omniauthable
   devise :database_authenticatable, :registerable, :confirmable,
          :recoverable, :rememberable, :trackable, :validatable , :omniauthable
-  attr_accessible :username, :email, :password
+  attr_accessible :username, :email, :password, :current_password
+  attr_accessor :current_password
   validates_format_of :email, :without => TEMP_EMAIL_REGEX, on: :update
 
   mount_uploader :avatar, AvatarUploader
