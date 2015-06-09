@@ -7,7 +7,7 @@ before_filter :configure_account_update_params, only: [:update]
     super
   end
 
-  # POST /resource
+  # # POST /resource
   # def create
   #   super
   # end
@@ -16,13 +16,13 @@ before_filter :configure_account_update_params, only: [:update]
   def edit
     super
   end
-
-  # PUT /resource
+  #
+  # # PUT /resource
   # def update
   #   super
   # end
 
-  # DELETE /resource
+  # # DELETE /resource
   # def destroy
   #   super
   # end

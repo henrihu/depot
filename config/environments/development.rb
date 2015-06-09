@@ -14,6 +14,13 @@ Depot::Application.configure do
       password:             ENV['gmail_password'],   #"nimenzaoan",
       enable_starttls_auto: true
   }
+
+  # Don't care if the mailer can't send.
+  config.action_mailer.raise_delivery_errors = false
+
+  # Wangbin config default_url for devise
+  config.action_mailer.default_url_options = { host: 'localhost', port: 3000 }
+
   # Settings specified here will take precedence over those in config/application.rb.
 
   # In the development environment your application's code is reloaded on
@@ -28,11 +35,6 @@ Depot::Application.configure do
   config.consider_all_requests_local       = true
   config.action_controller.perform_caching = true
 
-  # Don't care if the mailer can't send.
-  config.action_mailer.raise_delivery_errors = false
-
-  # Wangbin config default_url for devise
-  config.action_mailer.default_url_options = { host: 'localhost', port: 3000 }
 
   # Print deprecation notices to the Rails logger.
   config.active_support.deprecation = :log
