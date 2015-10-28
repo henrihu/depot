@@ -1,3 +1,4 @@
+<%= stylesheet_link_tag    "store", media: "all", "data-turbolinks-track" => true %>
 <% if notice %>
   <p id="notice"><%= notice %></p>
 <% end %>
@@ -8,7 +9,7 @@
       <div class="entry">
         <%= image_tag(product.image_url) %>
         <h3><%= product.title %></h3>
-        <%= sanitize(product.description) %>
+        <h3><%= sanitize(product.description) %></h3>
         <div class="price_line">
           <span class="price"><%= number_to_currency(product.price) %></span>
           <%= button_to t('.badd_html'), line_items_path(product_id: product),
